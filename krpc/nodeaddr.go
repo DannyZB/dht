@@ -7,7 +7,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/dannyzb/torrent/bencode"
 )
 
 // This will be deprecated in favour of NodeAddrPort.

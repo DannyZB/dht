@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/dannyzb/torrent/bencode"
 	qt "github.com/frankban/quicktest"
 )
 

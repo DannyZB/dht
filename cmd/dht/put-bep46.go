@@ -9,7 +9,7 @@ import (
 	"log"
 
 	"github.com/anacrolix/args/targets"
-	"github.com/anacrolix/torrent/types/infohash"
+	"github.com/dannyzb/torrent/types/infohash"
 	"github.com/multiformats/go-base36"
 
 	"github.com/anacrolix/dht/v2"

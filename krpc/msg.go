@@ -1,7 +1,7 @@
 package krpc
 
 import (
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/dannyzb/torrent/bencode"
 )
 
 // Msg represents messages that nodes in the network send to each other as specified by the protocol.

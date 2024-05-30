@@ -13,7 +13,7 @@ import (
 	"github.com/anacrolix/log"
 	"github.com/anacrolix/missinggo/inproc"
 	"github.com/anacrolix/sync"
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/dannyzb/torrent/bencode"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

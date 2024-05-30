@@ -14,8 +14,8 @@ import (
 	"github.com/anacrolix/args/targets"
 	"github.com/anacrolix/log"
 	"github.com/anacrolix/publicip"
-	"github.com/anacrolix/torrent/bencode"
-	"github.com/anacrolix/torrent/types/infohash"
+	"github.com/dannyzb/torrent/bencode"
+	"github.com/dannyzb/torrent/types/infohash"
 	"github.com/davecgh/go-spew/spew"
 
 	"github.com/anacrolix/dht/v2"
