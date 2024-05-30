@@ -10,7 +10,7 @@ import (
 	"github.com/anacrolix/log"
 	"golang.org/x/exp/constraints"
 
-	"github.com/anacrolix/dht/v2"
+	"github.com/dannyzb/dht/v2"
 )
 
 func GetPeers(ctx context.Context, s *dht.Server, ih [20]byte, opts ...dht.AnnounceOpt) error {

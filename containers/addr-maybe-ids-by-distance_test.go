@@ -6,8 +6,8 @@ import (
 	qt "github.com/frankban/quicktest"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anacrolix/dht/v2/int160"
-	"github.com/anacrolix/dht/v2/internal/testutil"
+	"github.com/dannyzb/dht/v2/int160"
+	"github.com/dannyzb/dht/v2/internal/testutil"
 )
 
 func TestSampleAddrsDiffer(t *testing.T) {

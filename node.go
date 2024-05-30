@@ -3,8 +3,8 @@ package dht
 import (
 	"time"
 
-	"github.com/anacrolix/dht/v2/int160"
-	"github.com/anacrolix/dht/v2/krpc"
+	"github.com/dannyzb/dht/v2/int160"
+	"github.com/dannyzb/dht/v2/krpc"
 )
 
 type nodeKey struct {
