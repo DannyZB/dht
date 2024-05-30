@@ -11,14 +11,14 @@ import (
 
 	"github.com/anacrolix/log"
 	"github.com/anacrolix/missinggo/v2"
-	"github.com/anacrolix/torrent/iplist"
-	"github.com/anacrolix/torrent/metainfo"
+	"github.com/dannyzb/torrent/iplist"
+	"github.com/dannyzb/torrent/metainfo"
 	"golang.org/x/time/rate"
 
-	"github.com/anacrolix/dht/v2/bep44"
-	"github.com/anacrolix/dht/v2/krpc"
-	peer_store "github.com/anacrolix/dht/v2/peer-store"
-	"github.com/anacrolix/dht/v2/transactions"
+	"github.com/dannyzb/dht/v2/bep44"
+	"github.com/dannyzb/dht/v2/krpc"
+	peer_store "github.com/dannyzb/dht/v2/peer-store"
+	"github.com/dannyzb/dht/v2/transactions"
 )
 
 func defaultQueryResendDelay() time.Duration {
@@ -115,7 +115,7 @@ var DefaultGlobalBootstrapHostPorts = []string{
 }
 
 // Returns the resolved addresses of the default global bootstrap nodes. Network is unused but was
-// historically passed by anacrolix/torrent.
+// historically passed by dannyzb/torrent.
 func GlobalBootstrapAddrs(network string) ([]Addr, error) {
 	return ResolveHostPorts(DefaultGlobalBootstrapHostPorts)
 }

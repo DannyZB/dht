@@ -102,9 +102,10 @@ github.com/anacrolix/tagflag v1.0.0/go.mod h1:1m2U/K6ZT+JZG0+bdMK6qauP49QT4wE5pm
 github.com/anacrolix/tagflag v1.1.0/go.mod h1:Scxs9CV10NQatSmbyjqmqmeQNwGzlNe0CMUMIxqHIG8=
 github.com/anacrolix/tagflag v1.3.0 h1:5NI+9CniDnEH0BWA4UcQbERyFPjKJqZnVkItGVIDy/s=
 github.com/anacrolix/tagflag v1.3.0/go.mod h1:Scxs9CV10NQatSmbyjqmqmeQNwGzlNe0CMUMIxqHIG8=
-github.com/anacrolix/torrent v1.48.1-0.20230103142631-c20f73d53e9f h1:5fPzkRgj1BFYzQinFQqilCPM9A/EuPUXzSC3utjMVGc=
-github.com/anacrolix/torrent v1.48.1-0.20230103142631-c20f73d53e9f/go.mod h1:PwdFzmApEr96LcqogJhuw41XOdd1oHGkp+qE9hhXyDc=
+github.com/dannyzb/torrent v1.48.1-0.20230103142631-c20f73d53e9f h1:5fPzkRgj1BFYzQinFQqilCPM9A/EuPUXzSC3utjMVGc=
+github.com/dannyzb/torrent v1.48.1-0.20230103142631-c20f73d53e9f/go.mod h1:PwdFzmApEr96LcqogJhuw41XOdd1oHGkp+qE9hhXyDc=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
+
 github.com/apache/thrift v0.12.0/go.mod h1:cp2SuWMxlEZw2r+iP2GNCdIi4C1qmUzdZFSVb+bacwQ=
 github.com/benbjohnson/immutable v0.2.0/go.mod h1:uc6OHo6PN2++n98KHLxW8ef4W42ylHiQSENghE1ezxI=
 github.com/benbjohnson/immutable v0.4.1-0.20221220213129-8932b999621d h1:2qVb9bsAMtmAfnxXltm+6eBzrrS7SZ52c3SedsulaMI=

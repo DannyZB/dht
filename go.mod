@@ -1,4 +1,4 @@
-module github.com/anacrolix/dht/v2
+module github.com/dannyzb/dht/v2
 
 go 1.23
 
@@ -18,7 +18,7 @@ require (
 	github.com/anacrolix/stm v0.4.1-0.20221221005312-96d17df0e496
 	github.com/anacrolix/sync v0.4.0
 	github.com/anacrolix/tagflag v1.3.0
-	github.com/anacrolix/torrent v1.48.1-0.20230103142631-c20f73d53e9f
+	github.com/dannyzb/torrent v0.0.0-20240530171342-bf2cc45b3205
 	github.com/benbjohnson/immutable v0.4.1-0.20221220213129-8932b999621d
 	github.com/bradfitz/iter v0.0.0-20191230175014-e8f45d346db8
 	github.com/davecgh/go-spew v1.1.1

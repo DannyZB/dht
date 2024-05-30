@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/dannyzb/torrent/bencode"
 
 	"github.com/anacrolix/dht/v2"
 	"github.com/anacrolix/dht/v2/exts/getput"

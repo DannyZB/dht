@@ -4,7 +4,7 @@ import (
 	"crypto/ed25519"
 	"crypto/sha1"
 
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/dannyzb/torrent/bencode"
 )
 
 type Put struct {

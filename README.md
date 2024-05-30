@@ -1,20 +1,23 @@
 # dht
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/dannyzb/dht/v2.svg)](https://pkg.go.dev/github.com/dannyzb/dht/v2)
+
+dht implements the mainline DHT protocol used by BitTorrent. It provides server and client implementations, handling the
+protocol level stuff, and allowing the user to provide their own store and routing table implementations.
 
 ## Installation
 
-Get the library package with `go get github.com/anacrolix/dht/v2`, or the provided cmds with `go install github.com/anacrolix/dht/v2/cmd/...@latest`.
+Get the library package with `go get github.com/dannyzb/dht/v2`, or the provided cmds with `go install github.com/dannyzb/dht/v2/cmd/...@latest`.
 
 ## Commands
 
-Here I'll describe what some of the provided commands in `./cmd` do.
+Several commands are provided that use the library:
 
 ### dht
 
 Supports various commands operating on the DHT.
 
-    % go run github.com/anacrolix/dht/v2/cmd/dht --help
+    % go run github.com/dannyzb/dht/v2/cmd/dht --help
     valid arguments at this point:
       --help|-h
       --network <string>

@@ -1,7 +1,7 @@
 package peer_store
 
 import (
-	"github.com/anacrolix/torrent/metainfo"
+	"github.com/dannyzb/torrent/metainfo"
 
 	"github.com/anacrolix/dht/v2/krpc"
 )
