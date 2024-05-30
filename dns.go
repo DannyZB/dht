@@ -22,7 +22,7 @@ func dnsResolverRefresher() {
 	}
 }
 
-// https://github.com/anacrolix/dht/issues/43
+// https://github.com/dannyzb/dht/issues/43
 func initDnsResolver() {
 	dnsResolverInit.Do(func() {
 		dnsResolver = &dnscache.Resolver{}

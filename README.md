@@ -1,10 +1,10 @@
 # dht
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/dannyzb/dht/v2.svg)](https://pkg.go.dev/github.com/dannyzb/dht/v2)
 
 ## Installation
 
-Get the library package with `go get github.com/anacrolix/dht/v2`, or the provided cmds with `go install github.com/anacrolix/dht/v2/cmd/...@latest`.
+Get the library package with `go get github.com/dannyzb/dht/v2`, or the provided cmds with `go install github.com/dannyzb/dht/v2/cmd/...@latest`.
 
 ## Commands
 
@@ -14,7 +14,7 @@ Here I'll describe what some of the provided commands in `./cmd` do.
 
 Supports various commands operating on the DHT.
 
-    % go run github.com/anacrolix/dht/v2/cmd/dht --help
+    % go run github.com/dannyzb/dht/v2/cmd/dht --help
     valid arguments at this point:
       --help|-h
       --network <string>

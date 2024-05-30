@@ -18,9 +18,9 @@ import (
 	"github.com/dannyzb/torrent/types/infohash"
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/anacrolix/dht/v2"
-	"github.com/anacrolix/dht/v2/bep44"
-	"github.com/anacrolix/dht/v2/krpc"
+	"github.com/dannyzb/dht/v2"
+	"github.com/dannyzb/dht/v2/bep44"
+	"github.com/dannyzb/dht/v2/krpc"
 )
 
 type serverParams struct {

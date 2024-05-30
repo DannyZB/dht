@@ -9,9 +9,9 @@ import (
 
 	"github.com/dannyzb/torrent/bencode"
 
-	"github.com/anacrolix/dht/v2"
-	"github.com/anacrolix/dht/v2/exts/getput"
-	"github.com/anacrolix/dht/v2/krpc"
+	"github.com/dannyzb/dht/v2"
+	"github.com/dannyzb/dht/v2/exts/getput"
+	"github.com/dannyzb/dht/v2/krpc"
 )
 
 type GetCmd struct {

@@ -15,10 +15,10 @@ import (
 	"github.com/dannyzb/torrent/metainfo"
 	"golang.org/x/time/rate"
 
-	"github.com/anacrolix/dht/v2/bep44"
-	"github.com/anacrolix/dht/v2/krpc"
-	peer_store "github.com/anacrolix/dht/v2/peer-store"
-	"github.com/anacrolix/dht/v2/transactions"
+	"github.com/dannyzb/dht/v2/bep44"
+	"github.com/dannyzb/dht/v2/krpc"
+	peer_store "github.com/dannyzb/dht/v2/peer-store"
+	"github.com/dannyzb/dht/v2/transactions"
 )
 
 func defaultQueryResendDelay() time.Duration {

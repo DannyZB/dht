@@ -10,11 +10,11 @@ import (
 	"github.com/anacrolix/log"
 	"github.com/dannyzb/torrent/bencode"
 
-	"github.com/anacrolix/dht/v2"
-	"github.com/anacrolix/dht/v2/bep44"
-	k_nearest_nodes "github.com/anacrolix/dht/v2/k-nearest-nodes"
-	"github.com/anacrolix/dht/v2/krpc"
-	"github.com/anacrolix/dht/v2/traversal"
+	"github.com/dannyzb/dht/v2"
+	"github.com/dannyzb/dht/v2/bep44"
+	k_nearest_nodes "github.com/dannyzb/dht/v2/k-nearest-nodes"
+	"github.com/dannyzb/dht/v2/krpc"
+	"github.com/dannyzb/dht/v2/traversal"
 )
 
 type GetResult struct {
